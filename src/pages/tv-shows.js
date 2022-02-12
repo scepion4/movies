@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import axios from 'axios';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import {setTvShows} from '../redux/actions/loadedTVAction'
+import {setTvShows} from '../redux/actions/loaded'
 import { Card, Row, Col } from 'react-bootstrap'
 import { Rating,Link } from '@mui/material';
 import PaginationSite from '../components/pagination';

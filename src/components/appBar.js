@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Navbar, Nav, Container, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import Home from '../pages/home';
 import { Routes, Route, Link } from "react-router-dom";
-import { setInputSearch } from '../redux/actions/searchAction';
+import { setInputSearch } from '../redux/actions/loaded';
 import { useDispatch,useSelector } from 'react-redux';
 import TvShows from '../pages/tv-shows';
 import PageMovie from '../pages/pageMovie'
@@ -25,7 +25,7 @@ export default function SiteMenu() {
     <>
       <Navbar fixed="top" variant='dark' bg="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">MOVIE</Navbar.Brand>
+          <Navbar.Brand href="/">MOVIE</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

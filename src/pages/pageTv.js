@@ -4,7 +4,7 @@ import { useSelector,useDispatch } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { useEffect } from 'react'
 import { Row,Col,Table } from 'react-bootstrap'
-import { setTVInformation } from '../redux/actions/pageTvAction'
+import { setTVInformation } from '../redux/actions/loaded'
 
 export default function PageTv() {
    const{id}=useParams()

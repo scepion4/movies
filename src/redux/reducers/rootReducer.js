@@ -5,7 +5,7 @@ import searchReducer from './searchReducer'
 import loadedTvReducer from './loadedTV'
 import PageTvReduser from './pageTvReduser';
 import GeneresReduser from './generesReduser'
- 
+import PagesInformation from './pagesInformation'
 
 
 const rootReducer=combineReducers({
@@ -15,6 +15,7 @@ const rootReducer=combineReducers({
   loadedTvReducer,
   PageTvReduser,
   GeneresReduser,
+  PagesInformation,
 })
 
 export default rootReducer

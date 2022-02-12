@@ -1,5 +1,5 @@
 const initialState={
-   page:1,
+   page:localStorage.getItem('page'),
 }
 
 export default function paginationReducer (state=initialState,action){
